@@ -18,8 +18,6 @@ p {
 .icones {
     padding-left: 5px;
 }
-
-
 .titulosBrancos {
     text-decoration: underline;
     text-underline-position: below;
@@ -29,7 +27,6 @@ p {
     color:white;
 }
 .titulosVerdes {
-    text-decoration: underline;
     text-underline-position: below;
     padding-bottom: 20px;
     text-transform: uppercase;
@@ -37,24 +34,48 @@ p {
     color: #18bc9c;
 }
 #tabelacursos {
+
     text-align: justify;
-    padding: 4px;
-    line-height: 10px;
+    font-size: bold;
+    text-shadow: 1px 1px 1px #dddd;
+    padding: 20px;
+    line-height: 15px;
     border-collapse: separate;
     border-spacing: 25px;
-    margin: 0 5px 0 0;
-	line-height: 25px;
+    margin-left: 20px; 
+    
         
     
 }
+
+#tabelaicursos {
+    text-align: justify;
+    font-size: bold;
+    text-shadow: 1px 1px 1px #dddd;
+    padding: 20px;
+    line-height: 15px;
+    border-collapse: separate;
+    border-spacing: 25px;
+    margin-left: 20px;
+        
+    
+}
+
+.td {
+
+margin-left: 20px;
+
+}
+
 #tabelaformacao {
     text-align: justify;
-    padding: 4px;
-    line-height: 10px;
+    font-size: bold;
+    text-shadow: 1px 1px 1px #dddd;
+    padding: 10px;
+    line-height: 15px;
     border-collapse: separate;
     border-spacing: 25px;
     margin: 0 5px 0 0;
-	line-height: 25px;
         
     
 }
@@ -77,4 +98,5 @@ p {
 }
 html {
     scroll-behavior: smooth;
+	scroll-behavior: auto;
 }
